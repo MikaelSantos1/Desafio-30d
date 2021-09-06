@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+   
+    background: linear-gradient(180deg, #B79891 0%, #94716B 123.44%);
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    margin-top: 74px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+/* Titulo */
+h1{
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 174px;
+}
+/* Elementos de entrada, login/senha */
+input
+{
+    width: 342px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    font-weight: 500px;
+    font-size: 17px;
+    padding-left: 53px;
+    display: block;
+    outline: none;
+}
+/* Botão para fazer login */
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 342px;
+    height: 74px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+/* Muda o opacidade do botao clicar com mouse */
+button:active
+{
+    opacity: 0.6;
+}
+/* Link para se inscriçao */
+a{
+    margin-top: 115px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
