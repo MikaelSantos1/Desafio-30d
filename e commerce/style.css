@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #FFFFFF;
+   overflow: hidden;
+}
+h2{
+ margin-top: 40px;
+ margin-left: 40px;
+}
+.nav-item{
+
+position: absolute;
+right: 40px;
+
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 42px;
+    font-size: 22px;
+   
+}
+nav p{
+    padding-bottom: 60px;
+}
+#logo{
+    margin-top: 650px;
+    margin-left: 44px;
+}
+#logo p{
+    margin-left: 141px;
+}
+main{
+    position: absolute;
+    width: 525px;
+    height: 319px;
+    left: 321px;
+    top: 240px;
+    
+    
+}
+main h1{
+    font-weight: 300;
+font-size: 62px;
+line-height: 90px;
+
+}
+#numero{
+    position: absolute;
+width: 501px;
+height: 587px;
+left: 793px;
+top: 194px;
+background-image:url(img/94.png) ;
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+}
+
+#add{
+
+ width: 185px;
+height: 72px;
+color: #FFFFFF;
+background: black;
+margin-top: 49px;
+border-radius:8px;
+text-align: center;
+font-weight: 500;
+font-size: 15px;
+
+}
+#add img{
+  
+width: 16.55px;
+height: 20px;
+
+
+}
+#watch{
+    
+    width: 185px;
+    height: 72px;
+    color: black;
+    background: white;
+    margin-top: 49px;
+    border-radius:8px;
+    margin-left: 24px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+#watch img{
+    width: 20px;
+    height: 20px;
+    left: 566px;
+    top: 513px;
+    
+}
+#backgroundimg{
+    position: absolute;
+    flex-direction: row;
+    width: 1003px;
+    height: 820px;
+    margin-top: 173px;
+    margin-left: 361px;
+    margin-top: 170px;
+    margin-bottom: 5px;
+    size: 100%;
+    background-image: url(./img/tenis.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    mix-blend-mode:darken;
+    
+   }
+   #categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  margin: 0;
+
+    position:absolute ;
+    width: 259px;
+    height: 18px;
+    top: 500px;
+    right: -25px;
+   
+   
+    transform: rotate(-90deg);
+   }
+   #categorias p{
+    margin: 0px 16px;
+    cursor: pointer;
+   }
+   .linha-vertical{
+    position: absolute;
+    width: 780px;
+    height: 990px;
+    left: 277px;
+    top: 0px;
+    border: 1px solid #E9E9E9;
+    mix-blend-mode: darken;
+   }
+   
+    
+   
